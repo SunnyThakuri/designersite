@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () =>{
     return(
-        <div className="plr absolute z-10 w-full">
+        <div className="plr absolute z-10 w-full text-white">
             <div className=" w-full px-4  mt-4 rounded-full backdrop-blur-md items-center flex justify-between">
                 <div className="h-[50px] w-[200px] items-center grid ">
                     {/* <Image

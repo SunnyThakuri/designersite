@@ -9,10 +9,10 @@ const LandingHero = () =>{
                     alt="hero"
                     width={1200}
                     height={800}
-                    className="w-full h-full object-cover"/>
+                    className="w-full h-full object-cover brightness-90"/>
             </div>
-            <div className=" absolute top-[40%] left-[5%]">
-                <p className="w-[20%] text-[50px] font-semibold">Design Interior With us</p>
+            <div className=" absolute top-[30%] left-[8%]">
+                <p className="w-[20%] text-[80px] text-white leading-[80px] font-semibold">Design Interior With us</p>
             </div>
         </div>
     )
