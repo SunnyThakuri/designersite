@@ -17,9 +17,9 @@ export default function Home() {
       <Quote/>
       {/* <Numbers/> */}
       <Expert/>
-      <LandingFaq/>
-      <Insights/>
-      <OurWork/>
+        <LandingFaq/>
+        <Insights/>
+        <OurWork/>
     </div>
   );
 }

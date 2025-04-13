@@ -37,7 +37,7 @@ const LandingFaq = () => {
   const [showAns, setShowAns] = useState(-1);
 
   return (
-    <section className=" max-sm:pt-4 plr mx-auto py-20 max-sm:pb-12 lg:-translate-y-96 flex flex-col md:flex-row " >
+    <section className=" max-sm:pt-4 plr mx-auto max-sm:pb-12  flex flex-col md:flex-row " >
         <div className="container bg-[#f7f7f7] md:px-[60px] py-8 md:py-[60px] md:w-[50%]">
             <div className="flex">
                 <div className="flex-1">
