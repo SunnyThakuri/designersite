@@ -32,23 +32,25 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ images, autoplayInterval = 
 
   return (
     <div className="relative h-full">
-      <div className="overflow-hidden h-full rounded-2xl" ref={emblaRef}>
+      <div className="overflow-hidden h-full " ref={emblaRef}>
         <div className="flex h-full">
           {images.map((image, index) => (
-            <div className="flex-shrink-0 rounded-2xl w-full h-full" key={index}>
-              <Image src={image} width={600} height={650} alt={`Slide ${index}`} className="w-full h-full rounded-2xl object-cover" />
+            <div className="flex-shrink-0  w-full h-full" key={index}>
+              <Image src={image} width={600} height={650} alt={`Slide ${index}`} className="w-full h-full  object-cover" />
             </div>
           ))}
         </div>
       </div>
-      <div className="absolute bottom-4 w-full flex justify-center">
+      <div className="absolute left-[8%] bottom-6 w-full flex">
         {images.map((_, index) => (
-          <div
+            <div
             key={index}
-            className={`mx-1 h-[2px] ${selectedIndex === index ? 'bg-white w-12' : 'bg-gray-300 w-8'} rounded`}
-          />
+            className={`mx-1 bg-white  w-[10px] h-[10px] rounded-full 
+                ${selectedIndex === index ? 'border-[6px] border-white bg-gray-400' : ' border-gray-400  border-[4px]'}
+            `}
+            />
         ))}
-      </div>
+        </div>
     </div>
   );
 };
