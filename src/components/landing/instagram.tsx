@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const InstagramHighlights = () => {
+const OurWork = () => {
   return (
     <div className="my-12 lg:my-[140px] w-full">
       <h1 className="text-center text-[22px] mb-6">INSTAGRAM HIGHLIGHTS</h1>
@@ -121,4 +121,4 @@ const InstagramHighlights = () => {
   );
 };
 
-export default InstagramHighlights;
+export default OurWork;
