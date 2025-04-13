@@ -12,7 +12,7 @@ export default function Home() {
     <div className="space-y-[160px]">
       <LandingHero/>
       <LandingServices/>
-      {/* <Trusted/> */}
+      <Trusted/>
       {/* <Quote/> */}
       {/* <Numbers/> */}
       {/* <Expert/> */}
