@@ -15,8 +15,8 @@ export default function Home() {
       <Trusted/>
       <Quote/>
       {/* <Numbers/> */}
-      {/* <Expert/> */}
-      {/* <Insights/> */}
+      <Expert/>
+      <Insights/>
       {/* <OurWork/> */}
     </div>
   );
