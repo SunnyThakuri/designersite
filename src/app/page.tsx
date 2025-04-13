@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <div className="space-y-[160px]">
       <LandingHero/>
-      <LandingServices/>
+      {/* <LandingServices/>
       <Trusted/>
       <Quote/>
       <Numbers/>
       <Expert/>
       <Insights/>
-      <OurWork/>
+      <OurWork/> */}
     </div>
   );
 }

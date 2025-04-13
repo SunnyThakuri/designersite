@@ -115,7 +115,7 @@ const OurWork = () => {
 
       </div>
       <div className='grid items-center mx-auto'>
-        <button className='shop-btn-dark mx-auto'>VIEW INSTAGRAM</button>
+        <button className='bg-[#0C02EC] px-8 py-2 rounded-xl text-white mx-auto'>VIEW ALL</button>
       </div>
     </div>
   );

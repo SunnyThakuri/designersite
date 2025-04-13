@@ -14,7 +14,7 @@ const Navbar = () =>{
                     className="w-full h-full object-cover"/> */}
                     Logo
                 </div>
-                <div className="flex items-center gap-4 ">
+                <div className="hidden md:flex items-center gap-4  sm:block">
                     <Link href={""}>
                         <p>Home</p>
                     </Link>

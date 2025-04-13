@@ -22,5 +22,5 @@ body {
 
 
 .plr{
-  @apply px-32 ;
+  @apply px-4 md:px-12 lg:px-24 xl:px-32 ;
 }
