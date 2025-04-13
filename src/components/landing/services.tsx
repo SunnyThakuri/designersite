@@ -15,14 +15,14 @@ const LandingServices= () =>{
 
     return(
         <div className="plr space-y-12">
-            <div className="flex justify-between">
+            <div className="flex flex-col md:flex-row justify-between">
                 <p className="text-2xl md:w-[20%]">Discover the Benefits & Our  Services</p>
-                <p className="w-[40%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  </p>
+                <p className="md:w-[40%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  </p>
             </div>
-            <div className="grid md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {
                     services.map((item,index) =>  (
-                        <div key={index} className="w-full h-[400px]">
+                        <div key={index} className="w-full h-[250px] md:h-[400px]">
                             <Image
                                 src={item}
                                 alt="service"
