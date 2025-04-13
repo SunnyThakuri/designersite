@@ -4,35 +4,32 @@ import { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa6";
 
 const LandingFaq = () => {
-  const faqList = [
-    {
-      id: 1,
-      title: "How to submit your Documents?",
-      description:
-        "Simply scan and email your documents to our dedicated submission email address provided, ensuring a swift and hassle-free process",
-    },
-
-    {
-      id: 2,
-      title: "Know Rules & Regulations",
-      description:
-        "For Information on rules and regulations, kindly refer to the official Government of Poland website at https://www.gov.pl/",
-    },
-
-    {
-      id: 3,
-      title: "How to get Embassy Datas?",
-      description:
-        "Please consult the official embassy website or contact their dedicated appointment booking system for detailed instructions and available options.",
-    },
-
-    {
-      id: 4,
-      title: "How to Flight Tickets?",
-      description:
-        "Simply provide your travel details to our team at DK Travel Services, and we'll take care of securing the best flight options tailored to your needs.",
-    },
-  ];
+    const faqList = [
+        {
+          id: 1,
+          title: "How to choose the right marble or granite for your space?",
+          description:
+            "Our team of experts will guide you through selecting the perfect marble or granite that complements your style, budget, and functional needs. Visit our showroom for inspiration and professional advice.",
+        },
+        {
+          id: 2,
+          title: "What are the care and maintenance tips for marble and granite surfaces?",
+          description:
+            "To ensure durability, clean spills promptly, use pH-neutral cleaners, and reseal surfaces periodically. Our care guide provides detailed instructions for keeping your surfaces pristine.",
+        },
+        {
+          id: 3,
+          title: "Do you provide custom cutting and installation services?",
+          description:
+            "Yes, we offer precision cutting and expert installation services tailored to your project requirements. Our team ensures a flawless finish for kitchens, bathrooms, or other spaces.",
+        },
+        {
+          id: 4,
+          title: "What is the delivery process for marble and granite orders?",
+          description:
+            "We handle safe and timely delivery of all orders, ensuring your materials arrive in perfect condition. For more details, our team will coordinate the delivery schedule with you.",
+        },
+    ]
 
   const [showAns, setShowAns] = useState(-1);
 
