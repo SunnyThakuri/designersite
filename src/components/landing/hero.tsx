@@ -3,7 +3,7 @@ import Image from "next/image";
 const LandingHero = () =>{
     return(
         <div className="relative w-full ">
-            <div className="w-full lg:h-[700px] ">
+            <div className="w-full h-[400px] lg:h-[700px] ">
                 <Image
                     src={"/images/landing/hero.jpg"}
                     alt="hero"
@@ -12,7 +12,7 @@ const LandingHero = () =>{
                     className="w-full h-full object-cover brightness-90"/>
             </div>
             <div className=" absolute top-[30%] left-[8%]">
-                <p className="w-[20%] text-[80px] text-white leading-[80px] font-semibold">Design Interior With us</p>
+                <p className="w-[20%] text-2xl lg:text-[80px] text-white lg:leading-[80px] font-semibold">Design Interior With us</p>
             </div>
         </div>
     )
