@@ -6,8 +6,8 @@ const Insights = () =>{
             <p className="text-center text-4xl font-semibold">Fresh and Clean Insights</p>
             <div className="grid grid-cols-3 gap-6">
                 {/* card1 */}
-                <div>
-                    <div className="w-full h-[260px] space-y-4">
+                <div className="space-y-3">
+                    <div className="w-full h-[260px] ">
                         <Image
                             src={"/images/landing/service1.jpg"}
                             alt="insgiht1"
@@ -16,11 +16,11 @@ const Insights = () =>{
                             className="w-full h-full object-cover rounded-xl"/>
                     </div>
                     <p>Nov 12, 2024 | Clean, Organize</p>
-                    <p>The Pros of Interior designing</p>
+                    <p className="text-xl font-semibold">The Pros of Interior designing</p>
                 </div>
                 {/* card1 */}
-                <div>
-                    <div className="w-full h-[260px] space-y-4">
+                <div className="space-y-3">
+                    <div className="w-full h-[260px] ">
                         <Image
                             src={"/images/landing/service1.jpg"}
                             alt="insgiht1"
@@ -29,11 +29,11 @@ const Insights = () =>{
                             className="w-full h-full object-cover rounded-xl"/>
                     </div>
                     <p>Nov 12, 2024 | Clean, Organize</p>
-                    <p>The Pros of Interior designing</p>
+                    <p className="text-xl font-semibold">The Pros of Interior designing</p>
                 </div>
                 {/* card1 */}
-                <div>
-                    <div className="w-full h-[260px] space-y-4">
+                <div className="space-y-3">
+                    <div className="w-full h-[260px] ">
                         <Image
                             src={"/images/landing/service1.jpg"}
                             alt="insgiht1"
@@ -42,7 +42,7 @@ const Insights = () =>{
                             className="w-full h-full object-cover rounded-xl"/>
                     </div>
                     <p>Nov 12, 2024 | Clean, Organize</p>
-                    <p>The Pros of Interior designing</p>
+                    <p className="text-xl font-semibold">The Pros of Interior designing</p>
                 </div>
             </div>
         </div>

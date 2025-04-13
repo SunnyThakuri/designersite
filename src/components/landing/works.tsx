@@ -4,7 +4,7 @@ import React from 'react'
 const OurWork = () => {
   return (
     <div className="my-12 lg:my-[140px] w-full">
-      <h1 className="text-center text-[22px] mb-6">INSTAGRAM HIGHLIGHTS</h1>
+      <h1 className="text-center text-[22px] mb-6">Some of our Works</h1>
       <div className='flex flex-col md:flex-row gap-3 w-full py-6 px-4 md:px-0'>
         {/* Left Side */}
         <div className='flex flex-col w-full md:w-[40%] gap-3 '>
