@@ -1,123 +1,117 @@
-// import { FaChevronUp, FaChevronDown  } from "react-icons/fa";
-// import { useState } from "react";
+"use client";
+import { FaChevronUp, FaChevronDown  } from "react-icons/fa";
+import { useState } from "react";
+import { FaMinus, FaPlus } from "react-icons/fa6";
 
-// const LandingFaq= ()=>{
-//     return(
-//         <div>
+const LandingFaq = () => {
+  const faqList = [
+    {
+      id: 1,
+      title: "How to submit your Documents?",
+      description:
+        "Simply scan and email your documents to our dedicated submission email address provided, ensuring a swift and hassle-free process",
+    },
 
-//         </div>
-//     )
-// }
+    {
+      id: 2,
+      title: "Know Rules & Regulations",
+      description:
+        "For Information on rules and regulations, kindly refer to the official Government of Poland website at https://www.gov.pl/",
+    },
 
-// export default LandingFaq
+    {
+      id: 3,
+      title: "How to get Embassy Datas?",
+      description:
+        "Please consult the official embassy website or contact their dedicated appointment booking system for detailed instructions and available options.",
+    },
 
+    {
+      id: 4,
+      title: "How to Flight Tickets?",
+      description:
+        "Simply provide your travel details to our team at DK Travel Services, and we'll take care of securing the best flight options tailored to your needs.",
+    },
+  ];
 
-// const Faq = () => {
-//   const faqList = [
-//     {
-//       id: 1,
-//       title: "What is PramiRaut?",
-//       description:
-//         "PramiRaut focuses on elegant, confident and classically styled women clothing which is beautifully designed. The outfits are Fully lined that gives the confidence and luxurious feeling as well as the look.  ",
-//     },
+  const [showAns, setShowAns] = useState(-1);
 
-//     {
-//       id: 2,
-//       title: "Who is behind PramiRaut?",
-//       description:
-//         "Pramila Raut, who always had the vision of building a clothing line brought PramiRaut into reality. Her strong motivation of completing her trip from Nepal to the US as a designer concept serves as the basis of this company.  ",
-//     },
+  return (
+    <section className=" max-sm:pt-4 plr mx-auto py-20 max-sm:pb-12 lg:-translate-y-96 flex flex-col md:flex-row " >
+        <div className="container bg-[#f7f7f7] md:px-[60px] py-8 md:py-[60px] md:w-[50%]">
+            <div className="flex">
+                <div className="flex-1">
+                    <h3 className="font-medium text-xl sm:text-2xl lg:text-3xl">
+                        Frequently Asked Questions
+                    </h3>
+                    <p className="mt-2   max-sm:text-[14px] sm:mt-4 ">
+                        Poland&apos;s job market ally, empowering seekers with expertise
+                        and comprehensive support for a successful career journey.
+                    </p>
 
-//     {
-//       id: 3,
-//       title: "What is the goal that PramiRaut holds?",
-//       description:
-//         "Women’s uniqueness, heritage, and belief are beautifully expressed through our fashion, let alone our goal of helping them with our fashion designs that are filled with elegance.  ",
-//     },
+                    <div className="flex flex-col gap-6 mt-6 sm:mt-12    ">
+                    {faqList.map((faq, index) => (
+                        <div
+                        key={faq.title}
+                        className="border-b pb-3 sm:pb-6   "
+                        onClick={() => {
+                            if(index==showAns){
 
-//     {
-//       id: 4,
-//       title: "Guideline on how to shop from the website?",
-//       description:
-//       "You can add the items you add it to a cart where you can put them into certain categories, and when you check down out you can view the complete order.  ",  
-//       },
+                            setShowAns(-1);
+                            }
+                            else{
 
-//     {
-//       id: 5,
-//       title: "Am I allowed to alter or cancel my purchase?",
-//       description:
-//         "Yes, within 24 hours of ordering that is going to be entirely possible but otherwise, it is going to be difficult for us to do so. In that case, please make sure you drop us an email at [pramidesigns@gmail.com] (mail to - pramidesigns@gmail.com) as soon as possible.  ",
-//     },
-//     {
-//       id: 6,
-//       title: "Which items do you constantly have in stock?",
-//       description:
-//       "Our goal is to make every item easily accessible but if due to a high demand for certain items we are unable to stock them then customers may still face inconveniences.\nIt is possible to register for stock replenishment notifications if an item is out of stock."
-//     },
-    
-//   ];  
-
-
-
-//   const [showAns, setShowAns] = useState(-1);
-
-
-//   return (
-//     <div className="relative bg-[#f7f7f7]">
-//     <section className=" max-sm:pt-4 lg:max-w-[1300px] mx-auto max-sm:pb-12" >
- 
-//       <div className="container  py-4 sm:py-28 ">
-//         <div className="flex">
-//           <div className="flex-1">
-//             <h3 className="font-semibold text-xl  sm:text-2xl lg:text-3xl">
-//               Frequently Asked Questions
-//             </h3>
-//             <p className="mt-2   max-sm:text-[14px] sm:mt-4 ">
-              
-//             </p>
-//             {/* Intro */}
-//             <div className="flex flex-col gap-6 mt-6 sm:mt-12    ">
-//               {faqList.slice(0,3).map((faq, index) => (
-//                 <div
-//                 key={faq.title}
-//                 className="border-b pb-3 sm:pb-6   "
-//                 onClick={() => {
-//                   if(index==showAns){
-//                     setShowAns(-1);
-//                   }
-//                   else{
-                    
-//                     setShowAns(index);
-//                   }
-//                 }}
-//                 >
-//                   <div className="flex justify-between cursor-pointer ">
-//                     <p className="text-base sm:text-[18px]">{faq.title}</p>
-//                     {index == showAns ? <FaChevronUp /> : <FaChevronDown />}
-//                   </div>
-//                   <div
-//                     className={`${
-//                       showAns == index
-//                       ? " transition-all ease-in-out duration-500 overflow-auto  opacity-100 translate-x-1 "
-//                       : "h-0 overflow-hidden opacity-0"
-//                     } `}
-//                     >
-//                     <p className=" text-[#828282] max-sm:text-sm mt-1 sm:mt-3 ">
-//                     {faq.description.split('\n').map((line, idx) => ( <p key={idx} className="text-[#828282] max-sm:text-sm mt-1 sm:mt-3"> {line} </p> ))}
-//                     </p>
-//                   </div>
-//                 </div>
-//               ))}
-//             </div>
-            
-//       </div>
-//       </div>
-
-//     </section>
-//   </div>
-//   </div>
-
-//   );
-// };
+                            setShowAns(index);
+                            }
 
 
+
+                            
+                        }}
+                        >
+                        <div className="flex justify-between cursor-pointer ">
+                            <p className="text-base sm:text-[18px]">{faq.title}</p>
+                            {index == showAns ? <FaMinus /> : <FaPlus />}
+                        </div>
+                        <div
+                            className={`${
+                            showAns == index
+                                ? " transition-all ease-in-out duration-500 overflow-auto  opacity-100 translate-x-1 "
+                                : "h-0 overflow-hidden opacity-0"
+                            } `}
+                        >
+                            <p className=" text-[#828282] max-sm:text-sm mt-1 sm:mt-3 ">
+                            {faq.description}
+                            </p>
+                        </div>
+                    </div>
+                    ))}
+                </div>
+            </div>
+            </div>
+        </div>
+        <div className="space-y-[48px] bg-white py-8 md:py-[60px] md:w-1/2 md:px-[60px]">
+            <p className="text-3xl font-semibold">Contact Us</p>
+            <form className="space-y-6">
+                <input
+                placeholder="Full Name"
+                className="p-2 w-full border-[1px] rounded-lg"/>
+                <input
+                placeholder="Email Adderess"
+                className="p-2 w-full border-[1px] rounded-lg"/>
+                <input
+                placeholder="Contact"
+                className="p-2 w-full border-[1px] rounded-lg"/>
+                <textarea 
+                    rows={5}
+                    placeholder="Your Message"
+                    className="w-full p-2 border-[1px] rounded-lg"/>
+                <button className='bg-[#0C02EC] px-8 py-2 rounded-lg text-white mx-auto'>Submit</button>
+
+            </form>
+        </div>
+    </section>
+  );
+};
+
+export default LandingFaq;
