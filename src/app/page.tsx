@@ -13,7 +13,7 @@ export default function Home() {
       <LandingHero/>
       <LandingServices/>
       <Trusted/>
-      {/* <Quote/> */}
+      <Quote/>
       {/* <Numbers/> */}
       {/* <Expert/> */}
       {/* <Insights/> */}
