@@ -3,7 +3,7 @@ import { CiLocationOn, CiMail } from "react-icons/ci";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 const Footer = () =>{
     return(
-        <div className="flex justify-between flex-wrap plr lg:mt-[160px] lg:py-[54px]">
+        <div className="flex justify-between flex-wrap plr mt-[60px] lg:mt-[160px] py-8 lg:py-[54px]">
             {/* Logo */}
             <div>
                 logo

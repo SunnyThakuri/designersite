@@ -9,7 +9,7 @@ import Numbers from "@/components/landing/numbers";
 
 export default function Home() {
   return (
-    <div className="space-y-[160px]">
+    <div className="space-y-[60px] lg:space-y-[160px]">
       <LandingHero/>
       <LandingServices/>
       <Trusted/>
@@ -17,7 +17,7 @@ export default function Home() {
       {/* <Numbers/> */}
       <Expert/>
       <Insights/>
-      {/* <OurWork/> */}
+      <OurWork/>
     </div>
   );
 }
