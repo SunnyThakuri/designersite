@@ -21,7 +21,7 @@ const Trusted = () =>{
                 {/* card2 */}
                 <div className="w-full h-[500px]">
                     <Image
-                        src={"/images/landing/service1.jpg"}
+                        src={"/images/landing/design1.webp"}
                         alt=""
                         width={400}
                         height={500}
@@ -30,7 +30,7 @@ const Trusted = () =>{
                 {/* card3 */}
                 <div className="w-full h-[500px]">
                     <Image
-                        src={"/images/landing/service1.jpg"}
+                        src={"/images/landing/design2.webp"}
                         alt=""
                         width={400}
                         height={500}
