@@ -24,7 +24,7 @@ const Quote = () =>{
                         Submit
                     </button>
                 </div>
-                <div className="w-full h-[600px]  hidden sm;block ">
+                <div className="w-full h-[600px]  hidden sm:block ">
                     <Image
                     src={"/images/landing/service1.jpg"}
                     alt="img"
