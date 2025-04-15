@@ -9,7 +9,7 @@ const Insights = () =>{
                 <div className="space-y-3">
                     <div className="w-full h-[260px] ">
                         <Image
-                            src={"/images/landing/service1.jpg"}
+                            src={"/images/landing/design8.webp"}
                             alt="insgiht1"
                             width={500}
                             height={500}
@@ -22,7 +22,7 @@ const Insights = () =>{
                 <div className="space-y-3">
                     <div className="w-full h-[260px] ">
                         <Image
-                            src={"/images/landing/service1.jpg"}
+                            src={"/images/landing/design7.webp"}
                             alt="insgiht1"
                             width={500}
                             height={500}
