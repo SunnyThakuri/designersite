@@ -15,10 +15,10 @@ const Navbar = () =>{
                     Logo
                 </div>
                 <div className="hidden md:flex items-center gap-4  sm:block">
-                    <Link href={""}>
+                    <Link href={"/"}>
                         <p>Home</p>
                     </Link>
-                    <Link href={""}>
+                    <Link href={"/about"}>
                         <p>About</p>
                     </Link>
                     <Link href={""}>

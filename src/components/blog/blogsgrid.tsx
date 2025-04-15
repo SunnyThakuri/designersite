@@ -7,7 +7,7 @@ const Bloggrid = () =>{
             <div className="space-y-4 w-[70%]">
                 <div className="w-full h-[550px]">
                     <Image
-                        src={"/images/landing/service1.jpg"}
+                        src={"/images/landing/design6.webp"}
                         alt="blog1"
                         width={300}
                         height={300}
@@ -25,7 +25,7 @@ const Bloggrid = () =>{
                 <div className="space-y-4 ">
                     <div className="w-full h-[230px] ">
                         <Image
-                            src={"/images/landing/service1.jpg"}
+                            src={"/images/landing/design1.webp"}
                             alt="blog1"
                             width={300}
                             height={300}
