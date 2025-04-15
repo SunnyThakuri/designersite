@@ -4,8 +4,8 @@ const LandingHero = () =>{
     const heroImages = [
         '/images/landing/hero.jpg',
         '/images/landing/hero.jpg',
-        '/images/landing/hero.jpg',
-        '/images/landing/hero.jpg',
+        '/images/landing/design4.png',
+        '/images/landing/design8.webp',
         '/images/landing/hero.jpg',
     ];
 

@@ -3,13 +3,13 @@ import Image from "next/image";
 const LandingServices= () =>{
 
     const services=[
-        "/images/landing/service1.jpg",
-        "/images/landing/service1.jpg",
-        "/images/landing/service3.webp",
-        "/images/landing/service1.jpg",
+        "/images/landing/design1.webp",
         "/images/landing/service1.jpg",
         "/images/landing/service3.webp",
+        "/images/landing/service2.jpg",
         "/images/landing/service1.jpg",
+        "/images/landing/service3.webp",
+        "/images/landing/design4.png",
         "/images/landing/service3.webp",
     ]
 
