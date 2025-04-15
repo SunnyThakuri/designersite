@@ -20,7 +20,7 @@ const Bloggrid = () =>{
             </div>
 
             {/* cards right */}
-            <div className="w-[30%] space-y-6">
+            <div className="w-[30%] space-y-4">
                 {/* Card 1 */}
                 <div className="space-y-4 ">
                     <div className="w-full h-[230px] ">

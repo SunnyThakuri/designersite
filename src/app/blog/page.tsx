@@ -3,7 +3,7 @@ import Bloggrid from "@/components/blog/blogsgrid";
 import BlogHeader from "@/components/blog/blogheader";
 const Blog = () =>{
     return(
-        <div>
+        <div className="lg:space-y-[160px]">
             <BlogHeader/>
             <Bloggrid/>
             <AllBlogs/>

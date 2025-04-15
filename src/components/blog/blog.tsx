@@ -4,7 +4,7 @@ const items = [1,2,3,4,5,6,7,8,9]
 
 const AllBlogs = () =>{
     return(
-        <div className="plr max-w-[1440px] mx-auto">
+        <div className="plr max-w-[1440px] space-y-6 mx-auto">
             <p className="text-center text-3xl">All Blogs</p>
             <div className="grid lg:grid-cols-3 gap-6 ">
                 {
