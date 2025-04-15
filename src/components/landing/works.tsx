@@ -12,7 +12,7 @@ const OurWork = () => {
           <div className='flex gap-3 '>
             <div className=" md:h-[405px] w-full">
               <Image
-                src="/images/landing/service1.jpg"
+                src="/images/landing/design1.webp"
                 width={270}
                 height={405}
                 alt="instagram-photo"
@@ -21,7 +21,7 @@ const OurWork = () => {
             </div>
             <div className="md:h-[325px] w-full self-end">
               <Image
-                src="/images/landing/service1.jpg"
+                src="/images/landing/design2.webp"
                 width={270}
                 height={325}
                 alt="instagram-photo"
@@ -43,7 +43,7 @@ const OurWork = () => {
             </div>
             <div className="md:h-[200px] md:w-[317px] lg:w-full  ">
               <Image
-                src="/images/landing/service1.jpg"
+                src="/images/landing/design3.webp"
                 width={317}
                 height={200}
                 alt="instagram-photo"
@@ -57,7 +57,7 @@ const OurWork = () => {
         <div className='grid items-center justify-center w-full md:w-[20%]'>
         <div className="md:h-[390px] w-full">
               <Image
-                src="/images/landing/service1.jpg"
+                src="/images/landing/design4.png"
                 alt="instagram"
                 width={324}
                 height={390}
@@ -72,7 +72,7 @@ const OurWork = () => {
           <div className='w-full flex gap-3'>
             <div className=" md:h-[325px] w-full self-end">
               <Image
-                src="/images/landing/service1.jpg"
+                src="/images/landing/design5.webp"
                 width={270}
                 height={405}
                 alt="instagram-photo"
@@ -81,7 +81,7 @@ const OurWork = () => {
             </div>
             <div className="md:h-[405px] w-full">
               <Image
-                src="/images/landing/service1.jpg"
+                src="/images/landing/design6.webp"
                 width={270}
                 height={325}
                 alt="instagram-photo"
@@ -94,7 +94,7 @@ const OurWork = () => {
           <div className='flex gap-3 '>
           <div className="w-full md:w-[200px] md:h-[186px]">
               <Image
-                src="/images/landing/service1.jpg"
+                src="/images/landing/design7.webp"
                 width={270}
                 height={405}
                 alt="instagram-photo"
@@ -103,7 +103,7 @@ const OurWork = () => {
             </div>
             <div className="md:h-[240px] w-full">
               <Image
-                src="/images/landing/service1.jpg"
+                src="/images/landing/design8.webp"
                 width={270}
                 height={325}
                 alt="instagram-photo"
