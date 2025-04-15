@@ -8,13 +8,13 @@ import AboutQuality from "@/components/about/quality";
 
 const About = () =>{
     return(
-        <div className="lg:space-y-[160px]">
+        <div className="space-y-[60px] lg:space-y-[160px]">
             <AboutHero/>
             <Welcome/>
-            <AboutQuality/>
-            <AboutServices/>
-            <Expert/>
-            <LandingFaq/>
+            {/* <AboutQuality/> */}
+            {/* <AboutServices/> */}
+            {/* <Expert/> */}
+            {/* <LandingFaq/> */}
             <OurWork/>
         </div>
     )
