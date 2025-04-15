@@ -7,6 +7,7 @@ import OurWork from "@/components/landing/works";
 import Trusted from "@/components/landing/trusted";
 import LandingFaq from "@/components/landing/faq";
 import Numbers from "@/components/landing/numbers";
+import LandingText from "@/components/landing/text";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <LandingServices/>
       <Trusted/>
       <Quote/>
+      <LandingText/>
       {/* <Numbers/> */}
       <Expert/>
         <LandingFaq/>
