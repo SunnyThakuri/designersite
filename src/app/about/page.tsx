@@ -11,7 +11,7 @@ const About = () =>{
         <div className="space-y-[60px] lg:space-y-[160px]">
             <AboutHero/>
             <Welcome/>
-            {/* <AboutQuality/> */}
+            <AboutQuality/>
             {/* <AboutServices/> */}
             {/* <Expert/> */}
             {/* <LandingFaq/> */}
