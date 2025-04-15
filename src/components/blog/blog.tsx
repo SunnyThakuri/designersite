@@ -1,6 +1,16 @@
 import Image from "next/image"
 
-const items = [1,2,3,4,5,6,7,8,9]
+const items = [
+    "/images/landing/design1.webp",
+    "/images/landing/design2.webp",
+    "/images/landing/design3.webp",
+    "/images/landing/service1.jpg",
+    "/images/landing/design5.webp",
+    "/images/landing/design6.webp",
+    "/images/landing/design1.webp",
+    "/images/landing/design7.webp",
+    "/images/landing/design8.webp",
+]
 
 const AllBlogs = () =>{
     return(
@@ -12,7 +22,7 @@ const AllBlogs = () =>{
                         <div key={index} className="space-y-4">
                             <div className="w-full h-[230px]">
                                 <Image
-                                    src={"/images/landing/service1.jpg"}
+                                    src={item}
                                     alt="blog1"
                                     width={300}
                                     height={300}
