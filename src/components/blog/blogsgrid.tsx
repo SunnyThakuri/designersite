@@ -2,10 +2,10 @@ import Image from "next/image"
 
 const Bloggrid = () =>{
     return(
-        <div className="plr flex gap-6">
+        <div className="plr flex flex-col md:flex-row gap-6">
             {/* Card left */}
-            <div className="space-y-4 w-[70%]">
-                <div className="w-full h-[550px]">
+            <div className="space-y-4 md:w-[70%]">
+                <div className="w-full h-[400px] md:h-[550px]">
                     <Image
                         src={"/images/landing/design6.webp"}
                         alt="blog1"
@@ -20,7 +20,7 @@ const Bloggrid = () =>{
             </div>
 
             {/* cards right */}
-            <div className="w-[30%] space-y-4">
+            <div className="md:w-[30%] space-y-4">
                 {/* Card 1 */}
                 <div className="space-y-4 ">
                     <div className="w-full h-[230px] ">
@@ -38,7 +38,7 @@ const Bloggrid = () =>{
                 </div>
                 {/* Card 2 */}
                 <div className="space-y-4">
-                    <div className="w-full h-[230px]">
+                    <div className="md:w-full h-[230px]">
                         <Image
                             src={"/images/landing/service1.jpg"}
                             alt="blog1"

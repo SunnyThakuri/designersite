@@ -3,7 +3,7 @@ import Image from "next/image"
 const BlogHeader= () =>{
     return(
         <div className="">
-            <div className="w-full h-[300px]">
+            <div className="w-full h-[200px] md:h-[300px]">
                 <Image
                 src={"/images/blog/blogheader.png"}
                 alt=""

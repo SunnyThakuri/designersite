@@ -21,7 +21,7 @@ const LandingHero = () =>{
                 <HeroCarousel images={heroImages}/>
             </div>
             <div className=" absolute top-[30%] left-[8%]">
-                <p className="w-[20%] text-2xl lg:text-[80px] text-white lg:leading-[80px] font-semibold">About us</p>
+                <p className="w-[20%] text-2xl lg:text-[80px] text-white lg:leading-[80px] font-semibold">Where Design Meets Perfection</p>
             </div>
         </div>
     )
