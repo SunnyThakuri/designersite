@@ -41,7 +41,8 @@ const Newdesign  = () =>{
                 <div key={index} className="relative">
                     <div className="w-full h-[400px]">
                         <Image
-                        src={"/images/landing/design1.webp"}
+                        // src={"/images/landing/design1.webp"}
+                        src={design}
                         alt="img"
                         width={500}
                         height={500}
