@@ -91,7 +91,7 @@ const Navbar = () =>{
                 onMouseLeave={()=>setisActive(false)}
                 onMouseEnter={()=>setisActive(true)}
                 className="flex gap-10 absolute z-40 top-12 pl-32 py-10 justify-center  bg-white w-full h-[400px]">
-                    <div className="space-y-8 text-xl font-medium">
+                    <div className="flex flex-col gap-6 text-xl font-medium">
                         <Link href={"/ourproducts/stonedesign"}>
                             <p >Stone design</p>
                         </Link>
@@ -102,8 +102,8 @@ const Navbar = () =>{
                             <p>New Designs</p>
                         </Link>
                     </div>
-                    <div className="h-full border-[1px] border-yellow-700"></div>
-                    <div className="h-full w-[400px]">
+                    <div className="h-full border-[0.5px] border-yellow-700"></div>
+                    <div className="h-full w-[500px]">
                         <Image
                         src={"/images/landing/service2.jpg"}
                         alt="img"
