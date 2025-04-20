@@ -2,7 +2,17 @@ import Image from "next/image"
 import Insights from "../landing/insights"
 
 const Newdesign  = () =>{
-    const designs =[1,2,3,4,5,6,7,8,9]
+    const designs =[
+        "/images/landing/design1.webp",
+        "/images/landing/design2.webp",
+        "/images/landing/design3.webp",
+        "/images/landing/design4.png",
+        "/images/landing/design5.webp",
+        "/images/landing/design6.webp",
+        "/images/landing/design7.webp",
+        "/images/landing/design8.webp",
+        "/images/landing/service2.jpg",
+    ]
 
     return(
         <div className="space-y-[60px]">
