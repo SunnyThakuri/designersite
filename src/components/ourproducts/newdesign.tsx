@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Insights from "../landing/insights"
 
 const Newdesign  = () =>{
     const designs =[1,2,3,4,5,6,7,8,9]
@@ -7,7 +8,7 @@ const Newdesign  = () =>{
         <div className="space-y-[60px]">
             <div className="plr text-center space-y-6">
             <p className="text-3xl font-medium">New Designs</p>
-            <p className="">Introducing four stunning  designs blending organic beauty with timeless sophistication.</p>
+            <p className="">Introducing stunning  designs blending organic beauty with timeless sophistication.</p>
             </div>
 
             <div className="w-full h-[600px] plr">
@@ -42,6 +43,7 @@ const Newdesign  = () =>{
                 }
         
             </div>
+            <Insights/>
         </div>
     )
 }
