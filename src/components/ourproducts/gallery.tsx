@@ -1,8 +1,16 @@
 import Image from "next/image"
 
 const Gallery  = () =>{
-    const designs =[1,2,3]
-    const design2 = [1,2]
+
+    const designs =[
+        "/images/landing/design1.webp",
+        "/images/landing/design2.webp",
+        "/images/landing/design3.webp",
+    ]
+    const design2 = [
+        "/images/landing/design4.png",
+        "/images/landing/design5.webp",
+    ]
 
     return(
         <div className="space-y-[40px]">
@@ -17,7 +25,8 @@ const Gallery  = () =>{
                         designs.map((item,index) =>(
                             <div key={index} className="w-full h-[500px]">
                                 <Image
-                                    src={"/images/landing/design1.webp"}
+                                    // src={"/images/landing/design1.webp"}
+                                    src={item}
                                     alt="img"
                                     width={500}
                                     height={500}
@@ -32,7 +41,42 @@ const Gallery  = () =>{
                         design2.map((item,index) =>(
                             <div key={index} className="w-full h-[500px]">
                                 <Image
-                                    src={"/images/landing/design1.webp"}
+                                    // src={"/images/landing/design1.webp"}
+                                    src={item}
+                                    alt="img"
+                                    width={500}
+                                    height={500}
+                                    className="w-full h-full object-cover"/>
+                            </div>
+                            
+                        ))
+                    }
+                </div>
+
+                {/* ///////////////////////////////////////////////////////////////////////////////////////// */}
+                <div className="grid grid-cols-3 gap-4">
+                    {
+                        designs.map((item,index) =>(
+                            <div key={index} className="w-full h-[500px]">
+                                <Image
+                                    // src={"/images/landing/design1.webp"}
+                                    src={item}
+                                    alt="img"
+                                    width={500}
+                                    height={500}
+                                    className="w-full h-full object-cover"/>
+                            </div>
+                            
+                        ))
+                    }
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                {
+                        design2.map((item,index) =>(
+                            <div key={index} className="w-full h-[500px]">
+                                <Image
+                                    // src={"/images/landing/design1.webp"}
+                                    src={item}
                                     alt="img"
                                     width={500}
                                     height={500}
