@@ -1,7 +1,18 @@
 import Image from "next/image"
 
 const Stonedesign  = () =>{
-    const designs =[1,2,3,4,5,6,7,8,9]
+    // const designs =[1,2,3,4,5,6,7,8,9]
+    const designs =[
+        "/images/landing/design1.webp",
+        "/images/landing/design2.webp",
+        "/images/landing/design3.webp",
+        "/images/landing/design4.png",
+        "/images/landing/design5.webp",
+        "/images/landing/design6.webp",
+        "/images/landing/design7.webp",
+        "/images/landing/design8.webp",
+        "/images/landing/service2.jpg",
+    ]
 
     return(
         <div className="space-y-[60px]">
@@ -18,7 +29,8 @@ const Stonedesign  = () =>{
                     <div key={index} className="relative">
                         <div className="w-full h-[400px]">
                             <Image
-                            src={"/images/landing/design1.webp"}
+                            // src={"/images/landing/design1.webp"}
+                            src={design}
                             alt="img"
                             width={500}
                             height={500}
