@@ -92,9 +92,15 @@ const Navbar = () =>{
                 onMouseEnter={()=>setisActive(true)}
                 className="flex gap-10 absolute z-40 top-12 pl-32 py-10 justify-center  bg-white w-full h-[400px]">
                     <div className="space-y-8 text-xl font-medium">
-                        <p >Stone design</p>
-                        <p>Inspiration Gallery</p>
-                        <p>New Designs</p>
+                        <Link href={"/ourproducts/stonedesign"}>
+                            <p >Stone design</p>
+                        </Link>
+                        <Link href={"/ourproducts/gallery"}>
+                            <p>Inspiration Gallery</p>
+                        </Link>
+                        <Link href={"/ourproducts/newdesign"}>
+                            <p>New Designs</p>
+                        </Link>
                     </div>
                     <div className="h-full border-[1px] border-yellow-700"></div>
                     <div className="h-full w-[400px]">

@@ -1,17 +1,28 @@
-"use client"
-import Stonedesign from "@/components/ourproducts/stonedesigns"
-import { useParams } from "next/navigation"
+"use client";
+import Stonedesign from "@/components/ourproducts/stonedesigns";
+import Gallery from "@/components/ourproducts/gallery";
+import Newdesign from "@/components/ourproducts/newdesign";
+import { useParams } from "next/navigation";
 
-const StoneDesigns = () =>{
-    const param = useParams()
-    const par=param.slug
-    console.log(param.slug)
+const StoneDesigns = () => {
+    const param = useParams();
+    const par = param.slug;
+    console.log(par);
 
-    return(
-        <div className="py-8 ">
-            <Stonedesign/>
-        </div>
-    )
-}
+    const renderComponent = () => {
+        switch (par) {
+        case "stonedesign":
+            return <Stonedesign />;
+        case "gallery":
+            return <Gallery />;
+        case "newdesign":
+            return <Newdesign />;
+        default:
+            return <div>Component not found </div>;
+        }
+    };
 
-export default StoneDesigns
+    return <div className="py-8">{renderComponent()}</div>;
+};
+
+export default StoneDesigns;

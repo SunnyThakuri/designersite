@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-const Stonedesign  = () =>{
+const Gallery  = () =>{
     const designs =[1,2,3,4,5,6,7,8,9]
 
     return(
@@ -34,4 +34,4 @@ const Stonedesign  = () =>{
     )
 }
 
-export default Stonedesign
+export default Gallery
