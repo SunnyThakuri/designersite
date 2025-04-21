@@ -1,10 +1,11 @@
 import ProductInfo from "@/components/productdetail/productinfo"
 import ProductImage from "@/components/productdetail/productImage"
 import Benefits from "@/components/productdetail/benefits"
+import Similar from "@/components/productdetail/similar"
 
 const ProductDetai = () =>{
     return(
-        <div className=" py-8">
+        <div className="space-y-[100px] py-8">
             <div className="flex plr gap-12">
                 <div className="w-[60%] ">
                     <ProductImage/>
@@ -14,6 +15,7 @@ const ProductDetai = () =>{
                 </div>
             </div>
             <Benefits/>
+            <Similar/>
         </div>
         
     )
