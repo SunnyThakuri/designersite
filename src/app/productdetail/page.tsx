@@ -2,6 +2,7 @@ import ProductInfo from "@/components/productdetail/productinfo"
 import ProductImage from "@/components/productdetail/productImage"
 import Benefits from "@/components/productdetail/benefits"
 import Similar from "@/components/productdetail/similar"
+import Experience from "@/components/productdetail/experience"
 
 const ProductDetai = () =>{
     return(
@@ -16,6 +17,7 @@ const ProductDetai = () =>{
             </div>
             <Benefits/>
             <Similar/>
+            <Experience/>
         </div>
         
     )

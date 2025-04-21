@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const Similar = () =>{
 
@@ -8,9 +9,11 @@ const Similar = () =>{
         "/images/landing/design3.webp",
     ]
     return(
-        <div>
-            <p>Explore Similar Designs</p>
-            <p>Love this design but want to explore more? Browse these equally stunning quartz designs featuring similar tones and movement.</p>
+        <div className="space-y-8">
+            <div className="px-12">
+                <p className="text-3xl font-semibold">Explore Similar Designs</p>
+                <p>Love this design but want to explore more? Browse these equally stunning quartz designs featuring similar tones and movement.</p>
+            </div>
             <div className="grid grid-cols-3 gap-4">
                 {/* card */}
                 {
@@ -30,7 +33,13 @@ const Similar = () =>{
                 </div>
                     ))
                 }
-    
+            </div>
+            <div className="grid justify-center">
+                <Link 
+                className="bg-[#c5972d] text-white px-6 rounded-xl py-3"
+                href={"/ourproducts/stonedesign"}>
+                  See More
+                </Link>
             </div>
         </div>
     )
