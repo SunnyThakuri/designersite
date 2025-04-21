@@ -3,15 +3,15 @@ import Insights from "../landing/insights"
 
 const Newdesign  = () =>{
     const designs =[
-        "/images/landing/design1.webp",
-        "/images/landing/design2.webp",
         "/images/landing/design3.webp",
-        "/images/landing/design4.png",
-        "/images/landing/design5.webp",
         "/images/landing/design6.webp",
-        "/images/landing/design7.webp",
+        "/images/landing/design4.png",
+        "/images/landing/design2.webp",
+        "/images/landing/design5.webp",
+        "/images/landing/design1.webp",
         "/images/landing/design8.webp",
         "/images/landing/service2.jpg",
+        "/images/landing/design7.webp",
     ]
 
     return(
@@ -48,7 +48,7 @@ const Newdesign  = () =>{
                         height={500}
                         className="w-full h-full object-cover "/>
                     </div>
-                    <p className="bg-white/70 px-4  absolute bottom-1 ">Purple Diamond</p>
+                    <p className="bg-white/70 px-4  absolute bottom-1 "></p>
                 </div>
                     ))
                 }
