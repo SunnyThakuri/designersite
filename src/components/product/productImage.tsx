@@ -21,7 +21,7 @@ const ProductImage: React.FC = () => {
 
   return (
     <div className="flex flex-col gap-3">
-      <div className="md:w-[530px] h-[450px] w-full md:h-[580px] ">
+      <div className="md:w-full h-[450px] w-full md:h-[580px] ">
         <Image
           src={selectedImage}
           alt="product"
@@ -30,7 +30,7 @@ const ProductImage: React.FC = () => {
           height={600}
         />
       </div>
-      <div className="md:w-[530px] w-full">
+      <div className="md:w-full w-full">
         <ProductCarousel items={imageItems} onImageClick={handleImageClick} />
       </div>
     </div>
