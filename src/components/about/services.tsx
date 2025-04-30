@@ -18,7 +18,7 @@ const AboutServices = () =>{
                 <p className="  text-3xl md:text-4xl font-semibold hover:underline md:underline-offset-8">Arabescato Breccia</p>
                 <p className="  text-3xl md:text-4xl font-semibold hover:underline md:underline-offset-8">Bianco Lasa</p>
                 <p className="  text-3xl md:text-4xl font-semibold hover:underline md:underline-offset-8">Thassos White</p>
-                <button className='bg-[#0C02EC] px-8 py-2 rounded-xl text-white  mx-auto'>View All Services</button> 
+                <button className='bg-[#c5972d] px-8 py-2 rounded-xl text-white  mx-auto'>View All Services</button> 
             </div>
 
         </div>
