@@ -103,7 +103,7 @@ const LandingFaq = () => {
                     rows={5}
                     placeholder="Your Message"
                     className="w-full p-2 border-[1px] rounded-lg"/>
-                <button className='bg-[#0C02EC] px-8 py-2 rounded-lg text-white mx-auto'>Submit</button>
+                <button className='bg-[#c5972d] px-8 py-2 rounded-lg text-white mx-auto'>Submit</button>
 
             </form>
         </div>

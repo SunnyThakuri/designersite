@@ -21,7 +21,7 @@ const Quote = () =>{
                             placeholder="Message"
                             className="bg-white py-2 rounded-lg w-full px-4" />
                     </div>
-                    <button className="px-6 text-white py-2 bg-blue-700 rounded-xl">
+                    <button className="px-6 text-white py-2 bg-[#c5972d] rounded-xl">
                         Submit
                     </button>
                 </div>
