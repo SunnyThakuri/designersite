@@ -11,13 +11,14 @@ const Quote = () =>{
                             placeholder="Full Name"
                             className="bg-white py-2 rounded-lg w-full px-4" />
                             <input 
-                            placeholder="Full Name"
+                            placeholder="Last Name"
                             className="bg-white py-2 rounded-lg w-full px-4" />
                             <input 
-                            placeholder="Full Name"
+                            placeholder="Email"
                             className="bg-white py-2 rounded-lg w-full px-4" />
-                            <input 
-                            placeholder="Full Name"
+                            <textarea 
+                            rows={5}
+                            placeholder="Message"
                             className="bg-white py-2 rounded-lg w-full px-4" />
                     </div>
                     <button className="px-6 text-white py-2 bg-blue-700 rounded-xl">

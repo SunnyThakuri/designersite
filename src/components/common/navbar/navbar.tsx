@@ -4,41 +4,6 @@ import Link from "next/link";
 import { useState } from "react";
 
 const Navbar = () =>{
-    // return(
-    //     <div className="plr absolute z-10 w-full text-white">
-    //         <div className=" w-full px-4  mt-4 rounded-full backdrop-blur-md items-center flex justify-between">
-    //             <div className="h-[50px] w-[200px] items-center grid ">
-    //                 {/* <Image
-    //                 src={""}
-    //                 alt=""
-    //                 width={100}
-    //                 height={100}
-    //                 className="w-full h-full object-cover"/> */}
-    //                 Logo
-    //             </div>
-    //             <div className="hidden md:flex items-center gap-4  sm:block">
-    //                 <Link href={"/"}>
-    //                     <p>Home</p>
-    //                 </Link>
-    //                 <Link href={"/about"}>
-    //                     <p>About</p>
-    //                 </Link>
-    //                 <Link href={""}>
-    //                     <p>Services</p>
-    //                 </Link>
-    //                 <Link href={""}>
-    //                     <p>Appointment</p>
-    //                 </Link>
-    //                 <Link href={""}>
-    //                     <p>Contact</p>
-    //                 </Link>
-    //                 <Link href={""}>
-    //                     <p className="bg-blue-500 px-4 rounded-full py-2">Call Us</p>
-    //                 </Link>
-    //             </div>
-    //         </div>
-    //     </div>
-    // )
 
     const[isActive,setisActive] = useState(false)
 
@@ -73,15 +38,11 @@ const Navbar = () =>{
 
                         </div>
                             
-
-                        <Link onMouseEnter={()=>setisActive(false)} href={""}>
-                            <p>Appointment</p>
-                        </Link>
                         <Link href={"/contact"}>
                             <p>Contact</p>
                         </Link>
                     </div>
-                    <Link href={""}>
+                    <Link href={"/contact"}>
                         <p className="bg-[#c5972d] text-white px-4 rounded-full py-2">Call Us</p>
                     </Link>
                 </div>
