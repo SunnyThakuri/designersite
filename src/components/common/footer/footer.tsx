@@ -23,7 +23,7 @@ const Footer = () =>{
 
             <div className="space-y-5">
                 <p className="text-xl font-semibold">Services</p>
-                <div className="text-[#383838] space-y-2">
+                <div className="text-[#383838]  space-y-2">
                     <Link href={"/blog"}>
                         <p>Blog</p>
                     </Link>

@@ -6,7 +6,7 @@ import Image from "next/image"
 
 const IndividualProduct = () =>{
     return(
-        <div className="plr pt-24  max-w-[1440px] mx-auto space-y-[100px]">
+        <div className="plr  max-w-[1440px] mx-auto space-y-[100px]">
             <div className="flex flex-col md:flex-row gap-16 pt-8 md:pt-16 ">
                 <div>
                     <ProductImage/>
