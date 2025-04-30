@@ -1,6 +1,7 @@
 import { FiPhone } from "react-icons/fi";
 import { CiLocationOn, CiMail } from "react-icons/ci";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
+import Link from "next/link";
 const Footer = () =>{
     return(
         <div className="flex justify-between flex-wrap plr mt-[60px] lg:mt-[160px] py-8 lg:py-[54px]">
@@ -23,14 +24,18 @@ const Footer = () =>{
             <div className="space-y-5">
                 <p className="text-xl font-semibold">Services</p>
                 <div className="text-[#383838] space-y-2">
-                    <p>Gutter Cleaning</p>
-                    <p>Office Cleaning</p>
-                    <p>Home Cleaning</p>
-                    <p>Window Cleaning</p>
-                    <p>Solar Cleaning</p>
-                    <p>Pressure Cleaning</p>
-                    <p>Carpet Cleaning</p>
-                    <p>Tiles Cleaning</p>
+                    <Link href={"/blog"}>
+                        <p>Blog</p>
+                    </Link>
+                    <Link href={"/ourproducts/stonedesign"}>
+                        <p>Stone Designs</p>
+                    </Link>
+                    <Link href={"/ourproducts/gallery"}>
+                        <p>Inspiration Gallery</p>
+                    </Link>
+                    <Link href={"/ourproducts/newdesign"}>
+                        <p>New Designs</p>
+                    </Link>
                 </div>
             </div>
 
