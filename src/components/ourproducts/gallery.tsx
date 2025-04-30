@@ -23,14 +23,14 @@ const Gallery  = () =>{
                 <div className="grid grid-cols-3 gap-4">
                     {
                         designs.map((item,index) =>(
-                            <div key={index} className="w-full h-[500px]">
+                            <div key={index} className="w-full h-[500px] overflow-hidden">
                                 <Image
                                     // src={"/images/landing/design1.webp"}
                                     src={item}
                                     alt="img"
                                     width={500}
                                     height={500}
-                                    className="w-full h-full object-cover"/>
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-700"/>
                             </div>
                             
                         ))
@@ -39,14 +39,14 @@ const Gallery  = () =>{
                 <div className="grid grid-cols-2 gap-4">
                 {
                         design2.map((item,index) =>(
-                            <div key={index} className="w-full h-[500px]">
+                            <div key={index} className="w-full h-[500px] overflow-hidden">
                                 <Image
                                     // src={"/images/landing/design1.webp"}
                                     src={item}
                                     alt="img"
                                     width={500}
                                     height={500}
-                                    className="w-full h-full object-cover"/>
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-700"/>
                             </div>
                             
                         ))
@@ -57,14 +57,14 @@ const Gallery  = () =>{
                 <div className="grid grid-cols-3 gap-4">
                     {
                         designs.map((item,index) =>(
-                            <div key={index} className="w-full h-[500px]">
+                            <div key={index} className="w-full h-[500px] overflow-hidden">
                                 <Image
                                     // src={"/images/landing/design1.webp"}
                                     src={item}
                                     alt="img"
                                     width={500}
                                     height={500}
-                                    className="w-full h-full object-cover"/>
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-700"/>
                             </div>
                             
                         ))
@@ -73,14 +73,14 @@ const Gallery  = () =>{
                 <div className="grid grid-cols-2 gap-4">
                 {
                         design2.map((item,index) =>(
-                            <div key={index} className="w-full h-[500px]">
+                            <div key={index} className="w-full h-[500px] overflow-hidden">
                                 <Image
                                     // src={"/images/landing/design1.webp"}
                                     src={item}
                                     alt="img"
                                     width={500}
                                     height={500}
-                                    className="w-full h-full object-cover"/>
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-700"/>
                             </div>
                             
                         ))

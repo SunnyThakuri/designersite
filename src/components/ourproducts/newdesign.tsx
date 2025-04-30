@@ -27,7 +27,7 @@ const Newdesign  = () =>{
                     alt="img"
                     width={1200}
                     height={600}
-                    className="w-full h-full object-cover"/>
+                    className="w-full h-full object-cover "/>
             </div>
             <div className="space-y-6 text-center">
                 <p className="text-3xl font-medium">Style, Unscripted</p>
@@ -38,7 +38,7 @@ const Newdesign  = () =>{
                 {
                     designs.map((design,index)=>(
                         
-                <div key={index} className="relative">
+                <div key={index} className="relative overflow-hidden">
                     <div className="w-full h-[400px]">
                         <Image
                         // src={"/images/landing/design1.webp"}
@@ -46,7 +46,7 @@ const Newdesign  = () =>{
                         alt="img"
                         width={500}
                         height={500}
-                        className="w-full h-full object-cover "/>
+                        className="w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-700"/>
                     </div>
                     <p className="bg-white/70 px-4  absolute bottom-1 "></p>
                 </div>
