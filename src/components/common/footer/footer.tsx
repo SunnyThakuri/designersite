@@ -12,18 +12,18 @@ const Footer = () =>{
 
             <div className="space-y-5">
                 <p className="text-xl font-semibold">Quick Links</p>
-                <div className="text-[#383838] space-y-2">
+                <div className="text-[#383838] flex flex-col gap-2">
                     <Link href={"/blog"}>
-                        <p>Home</p>
+                        <p className="hover:underline underline-offset-4 hover:text-[#c5972d]">Home</p>
                     </Link>
                     <Link href={"/blog"}>
-                        <p>About</p>
+                        <p className="hover:underline underline-offset-4 hover:text-[#c5972d]">About</p>
                     </Link>
                     <Link href={"/blog"}>
-                        <p>Blog</p>
+                        <p className="hover:underline underline-offset-4 hover:text-[#c5972d]">Blog</p>
                     </Link>
                     <Link href={"/blog"}>
-                        <p>Contact</p>
+                        <p className="hover:underline underline-offset-4 hover:text-[#c5972d]">Contact</p>
                     </Link>
                 </div>
             </div>
@@ -32,16 +32,16 @@ const Footer = () =>{
                 <p className="text-xl font-semibold">Useful Links</p>
                 <div className="text-[#383838] flex flex-col gap-2 ">
                     <Link href={"/blog"}>
-                        <p>Blog</p>
+                        <p className="hover:underline underline-offset-4 hover:text-[#c5972d]">Blog</p>
                     </Link>
                     <Link href={"/ourproducts/stonedesign"}>
-                        <p>Stone Designs</p>
+                        <p className="hover:underline underline-offset-4 hover:text-[#c5972d]">Stone Designs</p>
                     </Link>
                     <Link href={"/ourproducts/gallery"}>
-                        <p>Inspiration Gallery</p>
+                        <p className="hover:underline underline-offset-4 hover:text-[#c5972d]">Inspiration Gallery</p>
                     </Link>
                     <Link href={"/ourproducts/newdesign"}>
-                        <p>New Designs</p>
+                        <p className="hover:underline underline-offset-4 hover:text-[#c5972d]">New Designs</p>
                     </Link>
                 </div>
             </div>
