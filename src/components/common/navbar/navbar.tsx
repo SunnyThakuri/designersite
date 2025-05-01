@@ -94,6 +94,7 @@ import Link from "next/link";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const[dropdown,setDropdown] = useState(false)
+  const[isActive,setIsActive] = useState("home")
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -108,21 +109,21 @@ const Navbar = () => {
             Logo
           </div>
           <div className="hidden text-black md:flex items-center gap-4 lg:gap-10 sm:block">
-            <Link href={"/"}>
-              <p>Home</p>
+            <Link onClick={()=>setIsActive("home")} href={"/"}>
+              <p className={isActive == "home" ? "underline underline-offset-8 text-[#c5972d]":"hover:text-[#c5972d]" }>Home</p>
             </Link>
-            <Link onMouseEnter={()=> setDropdown(false)} href={"/about"}>
-              <p>About</p>
+            <Link onClick={()=>setIsActive("about")} onMouseEnter={()=> setDropdown(false)} href={"/about"}>
+              <p className={isActive == "about" ? "underline underline-offset-8 text-[#c5972d]":"hover:text-[#c5972d]" }>About</p>
             </Link>
             <div
               onMouseEnter={() => setDropdown(true)}
             >
-              <Link href={""}>
-                <p>Our Products</p>
+              <Link onClick={()=>setIsActive("product")} href={""}>
+                <p className={isActive == "product" ? "underline underline-offset-8 text-[#c5972d]":"hover:text-[#c5972d]" }>Our Products</p>
               </Link>
             </div>
-            <Link href={"/contact"}>
-              <p>Contact</p>
+            <Link onClick={()=>setIsActive("contact")} href={"/contact"}>
+              <p className={isActive == "contact" ? "underline underline-offset-8 text-[#c5972d]":"hover:text-[#c5972d]" }>Contact</p>
             </Link>
           </div>
           <Link href={"/contact"}>
@@ -229,3 +230,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
