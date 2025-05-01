@@ -22,13 +22,13 @@ const LandingServices= () =>{
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {
                     services.map((item,index) =>  (
-                        <div key={index} className="w-full h-[250px] md:h-[400px]">
+                        <div key={index} className="w-full h-[250px] md:h-[400px] overflow-hidden">
                             <Image
                                 src={item}
                                 alt="service"
                                 width={400}
                                 height={400}
-                                className="w-full h-full object-cover rounded-lg"/>
+                                className="w-full h-full hover:scale-105 transition-transform ease-in-out duration-700 object-cover rounded-lg"/>
                         </div>
                     ))
                 }
