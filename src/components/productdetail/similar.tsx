@@ -14,7 +14,7 @@ const Similar = () =>{
                 <p className="text-3xl font-semibold">Explore Similar Designs</p>
                 <p>Love this design but want to explore more? Browse these equally stunning quartz designs featuring similar tones and movement.</p>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {/* card */}
                 {
                     designs.map((design,index)=>(
