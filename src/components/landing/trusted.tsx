@@ -16,7 +16,7 @@ const Trusted = () =>{
                         alt=""
                         width={400}
                         height={500}
-                        className="w-full h-full object-cover rounded-lg"/>
+                        className="w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-700 rounded-lg"/>
                 </div>
                 {/* card2 */}
                 <div className="w-full h-[500px]">
@@ -25,7 +25,7 @@ const Trusted = () =>{
                         alt=""
                         width={400}
                         height={500}
-                        className="w-full h-full object-cover rounded-lg"/>
+                        className="w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-700 rounded-lg"/>
                 </div>
                 {/* card3 */}
                 <div className="w-full h-[500px]">
@@ -34,7 +34,7 @@ const Trusted = () =>{
                         alt=""
                         width={400}
                         height={500}
-                        className="w-full h-full object-cover rounded-lg"/>
+                        className="w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-700 rounded-lg"/>
                 </div>
             </div>
         </div>

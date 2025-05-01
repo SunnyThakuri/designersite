@@ -1,8 +1,8 @@
 const Benefits = () =>{
     return(
-        <div className="py-36 px-24 bg-[#f8f5f0]  space-y-6">
+        <div className="py-36 px-4 md:px-24 bg-[#f8f5f0]  space-y-6">
             <p className="text-center text-2xl text-[#8c6709]">Benefits of </p>
-            <div className="flex gap-14">
+            <div className="flex flex-col md:flex-row gap-14">
                 {/* numero1 */}
                 <div className="flex gap-4">
                     <p className="text-[60px] text-[#8c6709]">1</p>
