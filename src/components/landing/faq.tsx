@@ -42,8 +42,7 @@ const LandingFaq = () => {
                         Frequently Asked Questions
                     </h3>
                     <p className="mt-2   max-sm:text-[14px] sm:mt-4 ">
-                        Poland&apos;s job market ally, empowering seekers with expertise
-                        and comprehensive support for a successful career journey.
+                        .
                     </p>
 
                     <div className="flex flex-col gap-6 mt-6 sm:mt-12    ">

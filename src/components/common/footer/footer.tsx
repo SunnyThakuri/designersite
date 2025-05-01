@@ -13,15 +13,23 @@ const Footer = () =>{
             <div className="space-y-5">
                 <p className="text-xl font-semibold">Quick Links</p>
                 <div className="text-[#383838] space-y-2">
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Services</p>
-                    <p>Contact</p>
+                    <Link href={"/blog"}>
+                        <p>Home</p>
+                    </Link>
+                    <Link href={"/blog"}>
+                        <p>About</p>
+                    </Link>
+                    <Link href={"/blog"}>
+                        <p>Blog</p>
+                    </Link>
+                    <Link href={"/blog"}>
+                        <p>Contact</p>
+                    </Link>
                 </div>
             </div>
 
             <div className="space-y-5">
-                <p className="text-xl font-semibold">Services</p>
+                <p className="text-xl font-semibold">Useful Links</p>
                 <div className="text-[#383838] flex flex-col gap-2 ">
                     <Link href={"/blog"}>
                         <p>Blog</p>
@@ -47,7 +55,7 @@ const Footer = () =>{
                     </div>
                     <div className="flex items-center gap-4">
                         <CiLocationOn className="w-5 h-5"/>
-                        <p>Sydney, Australia</p>
+                        <p>Ohio, USA</p>
                     </div>
                     <div className="flex items-center gap-4">
                         <CiMail className="w-5 h-5"/>
