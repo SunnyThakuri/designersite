@@ -1,6 +1,5 @@
 import { FiPhone } from "react-icons/fi";
 import { CiLocationOn, CiMail } from "react-icons/ci";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Contactinfo = () =>{
     return(

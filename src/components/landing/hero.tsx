@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import HeroCarousel from "../common/sliders/herocarousel";
 const LandingHero = () =>{
     const heroImages = [

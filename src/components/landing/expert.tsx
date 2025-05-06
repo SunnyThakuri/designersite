@@ -1,5 +1,4 @@
 import Image from "next/image";
-import LandingFaq from "./faq";
 const Expert = () =>{
     return(
         <>

@@ -3,7 +3,7 @@ import Image from "next/image";
 const LandingText = () =>{
     return(
         <div className="lg:text-5xl text-center space-y-2">
-            <p>"We'll help transform your spaces </p>
+            <p>{`We'll help transform your spaces `}</p>
             <div className="flex gap-2 items-center justify-center">
                 <p> with premium marble   </p>
                 <div className=" w-28 h-16 rounded-full">
