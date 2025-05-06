@@ -10,44 +10,44 @@ const OurWork = () => {
         <div className='flex flex-col w-full md:w-[40%] gap-3 '>
           {/* Left1 */}
           <div className='flex gap-3 '>
-            <div className=" md:h-[405px] w-full">
+            <div className=" md:h-[405px] overflow-hidden overflow-hidden w-full">
               <Image
                 src="/images/landing/design1.webp"
                 width={270}
                 height={405}
                 alt="instagram-photo"
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover"
               />
             </div>
-            <div className="md:h-[325px] w-full self-end">
+            <div className="md:h-[325px] w-full overflow-hidden self-end">
               <Image
                 src="/images/landing/design2.webp"
                 width={270}
                 height={325}
                 alt="instagram-photo"
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover"
               />
             </div>
           </div>
 
           {/* Left2 */}
           <div className='flex gap-3 w-full overflow-hidden'>
-            <div className=" md:h-[240px] md:w-[317px] ">
+            <div className=" md:h-[240px] md:w-[317px] overflow-hidden ">
               <Image
                 src="/images/landing/service1.jpg"
                 width={317}
                 height={240}
                 alt="instagram-photo"
-                className="rounded-lg w-full h-full object-cover "
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover "
               />
             </div>
-            <div className="md:h-[200px] md:w-[317px] lg:w-full  ">
+            <div className="md:h-[200px] md:w-[317px] overflow-hidden lg:w-full  ">
               <Image
                 src="/images/landing/design3.webp"
                 width={317}
                 height={200}
                 alt="instagram-photo"
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover"
               />
             </div>
           </div>
@@ -55,13 +55,13 @@ const OurWork = () => {
 
         {/* Middle */}
         <div className='grid items-center justify-center w-full md:w-[20%]'>
-        <div className="md:h-[390px] w-full">
+        <div className="md:h-[390px] w-full overflow-hidden">
               <Image
                 src="/images/landing/design4.png"
                 alt="instagram"
                 width={324}
                 height={390}
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover"
               />
             </div>
         </div>
@@ -70,44 +70,44 @@ const OurWork = () => {
         <div className='flex flex-col w-full md:w-[40%] gap-3 '>
           {/* Left1 */}
           <div className='w-full flex gap-3'>
-            <div className=" md:h-[325px] w-full self-end">
+            <div className=" md:h-[325px] w-full overflow-hidden self-end">
               <Image
                 src="/images/landing/design5.webp"
                 width={270}
                 height={405}
                 alt="instagram-photo"
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover"
               />
             </div>
-            <div className="md:h-[405px] w-full">
+            <div className="md:h-[405px] w-full overflow-hidden">
               <Image
                 src="/images/landing/design6.webp"
                 width={270}
                 height={325}
                 alt="instagram-photo"
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover"
               />
             </div>
           </div>
 
           {/* Left2 */}
           <div className='flex gap-3 '>
-          <div className="w-full md:w-[200px] md:h-[186px]">
+          <div className="w-full md:w-[200px] md:h-[186px] overflow-hidden">
               <Image
                 src="/images/landing/design7.webp"
                 width={270}
                 height={405}
                 alt="instagram-photo"
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover"
               />
             </div>
-            <div className="md:h-[240px] w-full">
+            <div className="md:h-[240px] w-full overflow-hidden">
               <Image
                 src="/images/landing/design8.webp"
                 width={270}
                 height={325}
                 alt="instagram-photo"
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-lg w-full h-full hover:scale-110 transition-transform ease-in-out duration-700 object-cover"
               />
             </div>
           </div>
