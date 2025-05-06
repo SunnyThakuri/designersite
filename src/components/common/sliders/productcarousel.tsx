@@ -12,7 +12,7 @@ type CarouselsProps = {
 };
 
 const ProductCarousel: React.FC<CarouselsProps> = ({ items, onImageClick }) => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }); // Initializing Embla with loop enabled
+  const [emblaRef] = useEmblaCarousel({ loop: true }); // Initializing Embla with loop enabled
 
   const handleImageClick = useCallback(
     (image: string) => {

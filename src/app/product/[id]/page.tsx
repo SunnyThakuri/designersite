@@ -1,6 +1,6 @@
 import ProductImage from "@/components/product/productImage"
 import ProductInfo from "@/components/product/productdesc"
-import Image from "next/image"
+// import Image from "next/image"
 import Benefits from "@/components/productdetail/benefits"
 import Similar from "@/components/productdetail/similar"
 import Experience from "@/components/productdetail/experience"
